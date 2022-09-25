@@ -4,7 +4,7 @@ import './LeftBar.css'
 function LeftBar () {
     return (
         <div className='LeftBar'>
-            <a>Дом меню</a>
+            <a href='/'>Дом меню</a>
         </div>
     )
 }
