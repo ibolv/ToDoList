@@ -1,0 +1,25 @@
+header {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(15, 12, 36);
+    color: #fff;
+    z-index: 100;
+    position: relative;
+  }
+
+  .menu {
+    flex-grow: 1;
+  }
+  .menu ul {
+    display: flex;
+    flex-flow: row nowrap;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+
+  .logo {
+  margin-right: 30px;
+}
