@@ -1,7 +1,6 @@
 header {
     display: flex;
     flex-flow: row nowrap;
-    justify-content: flex-start;
     align-items: center;
     background-color: rgb(15, 12, 36);
     color: #fff;

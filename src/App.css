@@ -2,7 +2,6 @@
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: 'Trebuchet MS';
 }
 
 body {
@@ -21,7 +20,6 @@ body {
 .todo{
   display: flex;
   flex-direction: column;
-  justify-content: start;
   width: 520px;
   min-height: 600px;
   background: #161a2b;

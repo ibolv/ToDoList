@@ -1,5 +1,4 @@
 import React, {useState} from 'react'
-import LeftBar from './LeftBar';
 import Todo from './Todo';
 import ToDoForm from './TodoForm'
 
