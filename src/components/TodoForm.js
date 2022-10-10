@@ -3,11 +3,6 @@ import React, {useState, useEffect, useRef} from 'react'
 function TodoForm(props) {
  const [input, setInput] = useState(props.edit ? props.edit.value : '')
 
- const inputRef = useRef(null);
-
-useEffect(() => {
-    inputRef.current.focus()
-})
 
  const Change = e => {
     setInput(e.target.value);
@@ -34,8 +29,7 @@ useEffect(() => {
             placeholder='Обновить' 
             value={input} name="text" 
             className='todo-input'
-            onChange={Change}
-            ref={inputRef}/>
+            onChange={Change}/>
         <button className="todo-button">Обновить</button>
         </>) : (
             <>
@@ -44,8 +38,7 @@ useEffect(() => {
             placeholder='Добавить заметку' 
             value={input} name="text" 
             className='todo-input'
-            onChange={Change}
-            ref={inputRef}/>
+            onChange={Change}/>
         <button className="todo-button">Добавить заметку</button>
         </>)
         }
